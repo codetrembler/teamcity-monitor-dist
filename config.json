@@ -1,0 +1,15 @@
+{
+  "hostname": "teamcity.jetbrains.com",
+  "tls": true,
+  "buildTypes": [
+    "bt218",
+    "bt219",
+    "IdeaVim_Deploy",
+    "IdeaVim_TestsForIntelliJ141",
+    "bt951",
+    "IdeaVim_TestsForIntelliJ20163",
+    "bt1184",
+    "bt818",
+    "bt929"
+  ]
+}
