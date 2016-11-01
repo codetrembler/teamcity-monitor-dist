@@ -36,6 +36,6 @@ app.get('/buildTypesConfig', cors(), function (req, res, next) {
   res.send(data);
 });
 
-app.listen(8080, function(){
-  console.log('CORS-enabled web server listening on port 8080');
+app.listen(config.port, function(){
+  console.log('CORS-enabled web server listening on port ' + config.port);
 });
