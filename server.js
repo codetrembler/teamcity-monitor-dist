@@ -13,7 +13,7 @@ app.get('/buildTypes', cors(), function (req, res, next) {
   var str = '';
   http.get({
     hostname: config.hostname,
-    path: '/guestAuth/app/rest/buildTypes?fields=buildType(id,name,builds($locator(running:false,canceled:false,count:1),build(number,status)))',
+    path: '/guestAuth/app/rest/buildTypes?fields=buildType(id,name,projectName,builds($locator(running:false,canceled:false,count:1),build(number,status)))',
     headers: {
       Accept: 'application/json'
     }
